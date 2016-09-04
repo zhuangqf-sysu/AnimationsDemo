@@ -4,12 +4,13 @@ import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.ImageView;
 
 public class DrawableAnimationActivity extends AppCompatActivity {
 
     AnimationDrawable animationDrawable;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class DrawableAnimationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_drawable_animation);
         ImageView imageView = (ImageView)findViewById(R.id.imageView2);
         animationDrawable = (AnimationDrawable)imageView.getDrawable();
+
     }
 
     @Override
