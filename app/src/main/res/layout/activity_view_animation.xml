@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageViewAnimation"
+        android:id="@+id/image_view"
         android:src="@mipmap/basketball"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />

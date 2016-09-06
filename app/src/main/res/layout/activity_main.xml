@@ -9,13 +9,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.zhuangqf.animationsdemo.MainActivity">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawable Animation"
+        android:id="@+id/button_drawable"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View Animation"
         android:id="@+id/button_view"
-        android:layout_centerVertical="true"
+        android:layout_above="@id/button_drawable"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value Animation"
+        android:id="@+id/button_value"
+        android:layout_below="@id/button_drawable"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object Animation"
+        android:id="@+id/button_object"
+        android:layout_below="@id/button_value"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animator Set"
+        android:id="@+id/button_set"
+        android:layout_below="@id/button_object"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

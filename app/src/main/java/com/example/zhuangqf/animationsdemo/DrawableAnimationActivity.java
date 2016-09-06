@@ -16,7 +16,7 @@ public class DrawableAnimationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable_animation);
-        ImageView imageView = (ImageView)findViewById(R.id.imageView2);
+        ImageView imageView = (ImageView)findViewById(R.id.image_drawable);
         animationDrawable = (AnimationDrawable)imageView.getDrawable();
 
     }

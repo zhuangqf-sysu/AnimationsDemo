@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PropertyAnimationActivity" />
+        <activity android:name=".ObjectAnimationActivity" />
         <activity android:name=".DrawableAnimationActivity" />
-        <activity android:name=".ViewAnimationActivity"></activity>
+        <activity android:name=".ViewAnimationActivity" />
+        <activity android:name=".ValueAnimatorActivity" />
+        <activity android:name=".AnimatorSetActivity"></activity>
     </application>
 
 </manifest>

@@ -20,7 +20,7 @@ public class ViewAnimationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_animation);
 
-        imageView = (ImageView) findViewById(R.id.imageViewAnimation);
+        imageView = (ImageView) findViewById(R.id.image_view);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
